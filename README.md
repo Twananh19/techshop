@@ -64,13 +64,13 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 # Social Login (Đã tích hợp từ folder Source)
-GOOGLE_CLIENT_ID=1095730069115-u2qrvdhu88aofmrk1k01is2fkufr4nf1.apps.googleusercontent.com
-GOOGLE_CLIENT_SECRET=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
-GOOGLE_CALLBACK_URL=http://localhost:8000/auth/google/callback
+GOOGLE_CLIENT_ID=[Paste Client ID mới ở đây]
+GOOGLE_CLIENT_SECRET=[Paste Client Secret mới ở đây]
+GOOGLE_CALLBACK_URL=
 
-FACEBOOK_CLIENT_ID=777480994997477
-FACEBOOK_CLIENT_SECRET=191e4c44bd254d578ff898a7c118bc72
-FACEBOOK_CALLBACK_URL=http://localhost:8000/auth/facebook/callback
+FACEBOOK_CLIENT_ID=[Paste App ID mới]
+FACEBOOK_CLIENT_SECRET=[Paste App Secret mới]
+FACEBOOK_CALLBACK_URL=
 ```
 DB_HOST=127.0.0.1
 DB_PORT=3306
