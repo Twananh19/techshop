@@ -12,11 +12,13 @@ class OrderItem extends Model
         'inventory_item_id',
         'quantity',
         'price',
+        'subtotal',
     ];
 
     protected $casts = [
         'quantity' => 'integer',
         'price' => 'decimal:2',
+        'subtotal' => 'decimal:2',
     ];
 
     // Relationships

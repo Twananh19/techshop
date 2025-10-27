@@ -10,6 +10,7 @@ class Product extends Model
         'inventory_item_id',
         'name',
         'description',
+        'image',
         'price',
         'discount_price',
         'stock',
